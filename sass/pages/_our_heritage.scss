@@ -1,0 +1,175 @@
+.heritage {
+    position: relative;
+
+    .parallax-container {
+        .parallax {
+            z-index: 1 !important;
+
+            .par-pic {
+                display: block !important;
+
+            }
+
+            .parallax-overlay {
+                background-color: rgba(0, 0, 0, 0.92);
+                position: absolute;
+
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+
+
+    }
+
+    .heritageTop {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        top: 25%;
+        left: 25%;
+        z-index: 9999;
+
+
+        .timelineLogo {
+            width: 250px;
+            height: 200px;
+
+            img {
+
+                width: 100% !important;
+                height: 200px;
+                //z-index: 999999;
+
+                object-fit: contain;
+            }
+        }
+
+        .timelineHeader {
+            color: $primary-yellow;
+        }
+    }
+}
+
+.history {
+    width: 100%;
+
+    .slick-arrow:before {
+        color: rgba(0, 0, 0, 0.42) !important;
+    }
+
+    .yearDescription {
+        width: 80% !important;
+        margin: 0 auto;
+        padding: 30px;
+        transform: skewX(-12deg);
+        background-color: rgba($primary-grey, .8);
+
+
+        & > * {
+            transform: skewX(12deg);
+        }
+
+        /*  .yearDescGroup {
+            width: 60%;
+        }*/
+
+
+
+        .flow-text {
+            font-size: 1rem;
+
+        }
+
+
+    }
+
+    .two-partitions {
+        display: grid;
+        grid-template-columns: 60% 40%;
+
+        .yearDescGroupImage {
+            img {
+                //  position: absolute;
+                //top: 0;
+                // right: 0;
+                width: 100%;
+                transform: skewX(-0deg);
+            }
+        }
+    }
+
+}
+
+.historyDiv {
+    .action {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+
+        .btn {
+            width: inherit;
+            margin: 20px 0;
+            border-radius: 2em;
+
+        }
+
+        .active {
+            color: $primary-blue !important;
+            background-color: $primary-grey;
+
+        }
+    }
+}
+
+@media(max-width:600px) {
+    .historyDiv {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        //   grid-gap: 1em;
+
+
+        .history {
+            width: 100%;
+
+
+            .slick-arrow:before {
+                color: rgba(0, 0, 0, 0.42) !important;
+            }
+
+            .yearDescription {
+                width: 80% !important;
+                margin: 0 auto;
+                padding: 30px;
+                transform: skewX(0deg);
+                background-color: rgba($primary-grey, .8);
+
+                & > * {
+                    transform: skewX(0deg);
+                }
+            }
+
+            .two-partitions {
+
+                grid-template-columns: 100%;
+            }
+
+        }
+
+        .action {
+            display: block;
+            // flex-flow: wrap;
+            //flex-direction: column;
+
+            .btn {
+                width: inherit;
+
+
+
+            }
+        }
+
+    }
+}
