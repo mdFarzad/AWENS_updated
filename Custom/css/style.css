@@ -142,6 +142,9 @@ body {
     font-size: 1em;
     color: #E3E56A; }
 
+.user-view {
+  margin-bottom: 0 !important; }
+
 @media (max-width: 1024px) {
   #homeSlider .slick-slider .slick-items .slideImage {
     width: 100%;
