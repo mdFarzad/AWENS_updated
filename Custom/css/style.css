@@ -69,7 +69,7 @@ body {
         .navbar-fixed #mobile-nav-wrapper .side-nav li a .flow-text {
           padding-bottom: 0; }
       .navbar-fixed #mobile-nav-wrapper .side-nav li h5 {
-        margin: auto;
+        margin: 0 auto;
         color: #E3E56A; }
       .navbar-fixed #mobile-nav-wrapper .side-nav li .mobileNavButton:hover {
         background-color: #234E86;
