@@ -864,20 +864,22 @@ body {
             transition: all .8s ease !important;
             box-shadow: none !important;
         }*/ }
-    .card-side-front .cardImage {
-      position: absolute;
-      left: 25%;
-      top: 5%;
-      width: 50%; }
-    .card-side-front .card-text {
-      text-align: center;
-      margin-top: 60%;
-      padding: 10px; }
-      .card-side-front .card-text .card-text1 {
-        font-size: 1.5rem; }
-      .card-side-front .card-text .card-text2 {
-        font-size: 1.8rem;
-        color: #234E86; }
+    .card-side-front {
+      z-index: 5; }
+      .card-side-front .cardImage {
+        position: absolute;
+        left: 25%;
+        top: 5%;
+        width: 50%; }
+      .card-side-front .card-text {
+        text-align: center;
+        margin-top: 60%;
+        padding: 10px; }
+        .card-side-front .card-text .card-text1 {
+          font-size: 1.5rem; }
+        .card-side-front .card-text .card-text2 {
+          font-size: 1.8rem;
+          color: #234E86; }
     .card-side-back {
       background-color: #234E86;
       transform: rotateY(180deg); }
@@ -885,7 +887,8 @@ body {
         text-align: center;
         margin-top: 60%; }
   .card:hover .card-side-front {
-    transform: rotateY(-180deg); }
+    transform: rotateY(-180deg);
+    z-index: -1; }
   .card:hover .card-side-back {
     transform: rotateY(0); }
 
