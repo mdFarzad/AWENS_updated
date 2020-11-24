@@ -898,7 +898,8 @@ body {
   .card {
     height: 20rem; }
     .card-side {
-      height: 20rem; }
+      height: 20rem;
+      backface-visibility: hidden; }
       .card-side-front .cardImage {
         position: absolute;
         left: 25%;
