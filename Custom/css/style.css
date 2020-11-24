@@ -79,7 +79,7 @@ body {
         display: flex; }
         .navbar-fixed #mobile-nav-wrapper .side-nav .user-view .awensLogoMobile {
           width: 60%;
-          margin: auto; } }
+          margin: 0 auto; } }
 
 /*******************************************************Slider CSs*******************************************************/
 #homeSlider .slick-slider {
