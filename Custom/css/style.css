@@ -78,8 +78,8 @@ body {
       .navbar-fixed #mobile-nav-wrapper .side-nav .user-view {
         display: flex; }
         .navbar-fixed #mobile-nav-wrapper .side-nav .user-view .awensLogoMobile {
-          width: 60%;
-          height: 100%;
+          width: 180px;
+          height: 200px;
           margin: 0 auto;
           object-fit: contain; } }
 
