@@ -176,7 +176,8 @@ body {
     width: 100%;
     height: 70vw; }
   .overlayTop .overlayLogo {
-    width: 5px; }
+    width: 5px;
+    height: 10px; }
   .overlay {
     /*overlayDesign($top, $bottom, $width, $height, $padding, $borderbottomright, $bordertopleft )*/
     top: 10%;
