@@ -1116,14 +1116,16 @@ body {
     width: 350px;
     margin: 10px;
     border-radius: 3px; }
-    .membershipTier .tier .collection-header {
-      background-color: #234E86 !important;
-      height: 250px; }
-    .membershipTier .tier .collection-item {
-      padding: 20px; }
-      .membershipTier .tier .collection-item .subList li {
-        list-style: inside !important;
-        padding: 10px; }
+    .membershipTier .tier .collection {
+      border: 1px solid #e0e0e0; }
+      .membershipTier .tier .collection-header {
+        background-color: #234E86 !important;
+        height: 250px; }
+      .membershipTier .tier .collection-item {
+        padding: 20px; }
+        .membershipTier .tier .collection-item .subList li {
+          list-style: inside !important;
+          padding: 10px; }
 
 #howtoBecomeMember .form-link {
   color: #E3E56A; }
